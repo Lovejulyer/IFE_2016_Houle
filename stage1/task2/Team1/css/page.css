@@ -1,0 +1,158 @@
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,
+fieldset,input,textarea,p,blockquote,th,td { 
+	padding: 0; 
+	margin: 0; 
+} 
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0; 
+} 
+fieldset,img { 
+	border: 0; 	
+} 
+address,caption,cite,code,dfn,em,strong,th,var { 
+	font-weight: normal; 
+	font-style: normal; 
+} 
+ol,ul { 
+	list-style: none; 
+} 
+caption,th { 
+	text-align: left; 
+} 
+// h1,h2,h3,h4,h5,h6 { 
+// 	font-weight: normal; 
+// 	font-size: 100%; 
+// } 
+q:before,q:after { 
+	content:''; 
+} 
+abbr,acronym { 
+	border: 0; 
+}
+
+/* page */
+body {
+	font-family: '微软雅黑';
+	background-color: #dedede;
+}
+.nav {
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+	overflow: hidden;
+}
+.nav .logo {
+	float: left;
+	width: 120px;
+	height: 40px;
+	margin: 10px 0 10px 40px;
+	background-image: url(../img/bd_logo1.png);
+} 
+.nav .nav_list {
+	float: right;
+	margin: 10px 20px 10px 0;
+	// width: 500px;
+} 
+.nav_list li {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 20px;
+	color: #000;
+}
+.nav_list li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.container {
+	padding: 20px;
+	background-color: #dedede;
+}
+
+article {
+	background-color: #fff;
+	padding:30px 20px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 2px #999;
+}
+.subtitle,  .author{
+	color: #6f624f;
+}
+.main_text p {
+	text-indent: 2em;
+}
+.pic {
+	border: 1px solid #cbcbcb;
+	padding: 20px 10px 10px 10px;
+	width: 300px;
+	margin-bottom: 20px;
+}
+.pic p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main_text table {
+	width: 100%;
+}
+.main_text table thead {
+	background: #333;
+	color: #fff;
+}
+.main_text table tfoot {
+	background: #ccc;
+}
+.sidebar_title {
+	border-left: 4px solid #ccc;
+	padding-left: 8px;
+}
+.text_field {
+	width: 400px;
+	margin: 30px auto;
+}
+.submit_field {
+	height: 40px;
+    background: blue;
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+}
+.form_info .text_field {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.form_info .form_group {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.form_info .form_group .group_name{
+	text-align: right;
+	width: 150px;
+	display: inline-block;
+}
+.form_info .form_group .group_value, .form_info .text_field p{
+	width: 240px;
+	display: inline-block;
+
+}
+.form_info .text_field p {
+	text-align: left;
+	width: 244px;
+	float: right;
+	color: #ccc;
+}
+.form_info .tip {
+	text-align: right;
+}
+.footer {
+	height: 70px;
+	color: #fff;
+	background-color: #000;
+	line-height: 70px;
+	text-align: center;
+}

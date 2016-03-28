@@ -1,0 +1,57 @@
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.container {
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+    zoom: 1;
+    min-width: 600px;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content {
+    background-color: #fff;
+    border: 1px solid #999;
+    padding: 20px;
+}
+
+.left {
+    position: relative;
+    width: 160px;
+    float: left;
+}
+
+.left h1 {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size:14px;
+}
+
+.middle {
+    margin: 0 142px 0 222px;
+}
+
+.right {
+    width: 80px;
+    float: right;
+}
+
+.right img {
+    margin: 10px 0 10px 0;
+}
+
+.introduce {
+    background-color: #fff;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom:10px;
+}

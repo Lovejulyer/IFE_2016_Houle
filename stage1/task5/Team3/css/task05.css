@@ -1,0 +1,145 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;         
+}
+.container{
+    min-width:500px;    
+}
+body{
+	padding:0;
+	margin: 0;
+	background-color: rgb(220,220,220);
+	font-family: "Microsoft YaHei UI", sans-serif;
+}
+header{
+	width:100%;
+	height:70px;
+	background-color: rgb(51,51,51);
+}
+header a,a:active{
+    color: #fff;
+    text-decoration: none;
+}
+header span{
+	float: left;
+    padding: 5px 40px;
+    font-size: 40px;
+    font-family: cursive,LiSu,sans-serif;
+}
+nav ul{
+    float: right;
+    margin: 5px 40px;
+    line-height: 60px;
+}
+nav li {
+	margin: 5px 10px;
+    display: inline-block;
+    font-size: 14px;
+}
+.left article ,section{
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+    overflow: auto;
+}
+.left {
+    overflow: auto;
+}
+aside{
+	background-color: white;
+	width:450px;
+	position: absolute;
+	top:90px;
+	right:30px;
+}
+.content p {
+    text-indent: 2em;
+}
+article ul li {
+   list-style-type: none;
+   margin:10px;
+}
+article ol li{
+    margin:10px 0;
+}
+.title_2 {
+    font-size: 18px;
+    color: rgb(122, 122, 122);
+}
+.somelabel {
+	font-size: 14px;
+    color: rgb(122, 122, 122);
+}
+.pic{
+	margin: 10px;
+    width: 200px;
+    border: solid 1px rgb(170,170,170);
+    float:left;
+}
+.content img{
+    width:400px;
+}
+
+section div img {
+    width: 100px;
+    height: 100px;
+} 
+.pic img{
+	margin: 10px 50px;
+}
+section p {
+    text-align: center;
+}
+table {
+    width: 100%;
+    font-size: 13px;
+    border: solid 1px rgb(170,170,170);
+    border-collapse:collapse;
+}
+th {
+    padding: 5px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 15, 15);
+}
+td{
+	padding: 5px;
+}
+.form_last{
+	background-color: rgb(170,170,170);
+}
+aside h2 {
+    padding-left: 10px;
+    border-left: solid 2px rgb(205,205,205);
+    margin-left: 10px;
+}
+aside .form_sum label ,textarea {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+aside .form_sum{
+	margin: 20px 10px;
+}	
+.error {
+    margin-left: 30%;
+    font-size: 14px;
+    color: rgb(170,170,170);
+}
+#submit{
+	width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 99, 221);
+    margin-top: 10px;
+}
+footer {
+    height: 70px;
+    background-color: black;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+}

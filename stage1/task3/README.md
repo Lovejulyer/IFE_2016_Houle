@@ -49,3 +49,7 @@
 团队二：[红鲤鱼与绿鲤鱼与驴队](http://ife.baidu.com/group/profile?groupId=2852)
   代码地址：https://github.com/yuanguangxin/Baidu_ife/tree/master/mission1_3
   demo：http://yuanguangxin.github.io/Baidu_ife/mission1_3/index.html
+
+团队三：[Happy coding](http://ife.baidu.com/review/detail?workId=658)  
+  代码地址：https://github.com/andy1li/baidu-ife-2016-spring/tree/master/task-1-3
+  demo：http://andy1li.github.io/baidu-ife-2016-spring/task-1-3/task-3.html

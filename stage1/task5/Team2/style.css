@@ -1,0 +1,212 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+/*头部样式*/
+.nav_bar{
+	position: relative;
+	height: 70px;
+	background-color: #666;
+}
+.logo{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-image: url(1.gif);
+	background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    margin-top: 5px;
+    float: left;
+    margin-left: 20px;
+}
+.nav{
+	float: right;
+	width: 550px;
+	height: 70px;
+	margin-right: 20px;
+}
+.nav .nav_ul{
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+} 
+/*实现li标签中字体的垂直居中*/
+.nav .nav_ul li{
+	float: left;
+	margin-left: 20px;
+	height: 70px;
+	line-height: 70px; 
+	display: inline-block;
+}
+.nav .nav_ul li a{
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition:all 0.3s linear;
+}
+.nav .nav_ul li a:hover{
+	color: #001212;
+	-webkit-transition:all 0.2s linear;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+/*主内容样式*/
+.container{
+	overflow:auto; 
+}
+.container_left{
+	width: calc(100% - 480px);
+	float: left;
+}
+.Side_Bar{
+	float: right;
+	width: 380px;
+	background-color: #fff;
+	-webkit-box-shadow:0 0 10px #000;  
+  	-moz-box-shadow:0 0 10px #000;  
+  	box-shadow:0 0 10px #000;  
+  	-webkit-transition:all 0.3s linear;
+  	padding: 20px;
+  	margin: 20px;
+}
+.Side_Bar:hover{
+  	-webkit-box-shadow:0 0 10px #0CC;  
+  	-moz-box-shadow:0 0 10px #0CC;  
+  	box-shadow:0 0 10px #0CC;
+  	-webkit-transition:all 0.2s linear;
+  }
+.Article{
+	width: 95%;
+	float: left;
+	background-color: #fff;
+	-webkit-box-shadow:0 0 10px #000;  
+  	-moz-box-shadow:0 0 10px #000;  
+  	box-shadow:0 0 10px #000;  
+  	-webkit-transition:all 0.3s linear;
+  	padding: 20px;
+  	margin: 20px;
+  }
+.Article:hover{
+  	-webkit-box-shadow:0 0 10px #0CC;  
+  	-moz-box-shadow:0 0 10px #0CC;  
+  	box-shadow:0 0 10px #0CC;
+  	-webkit-transition:all 0.2s linear;
+  }
+img{
+	width: 100px;
+	height: 100px;
+}
+.Article_1 p a{
+	text-decoration: none;
+	color: #666;
+	-webkit-transition:all 0.2s linear;
+}
+.Article_1 p a:hover{
+	color: #0CC;
+	-webkit-transition:all 0.2s linear;
+}
+.list{
+	position: relative;
+	float: left;
+}
+.all_img{
+	float: left;
+}
+.img_list{
+	float: left;
+	text-align: center;
+	background-color: #fff;
+	-webkit-box-shadow:0 0 10px #000;  
+  	-moz-box-shadow:0 0 10px #000;  
+  	box-shadow:0 0 10px #000;  
+  	-webkit-transition:all 0.3s linear;
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+  	margin: 20px;
+}
+.img_list:hover{
+	-webkit-box-shadow:0 0 10px #0CC;  
+  	-moz-box-shadow:0 0 10px #0CC;  
+  	box-shadow:0 0 10px #0CC;
+  	-webkit-transition:all 0.2s linear;
+}
+.table_style{
+	width: 100%;
+}
+.table_style th{
+	background-color: #000;
+	color: #fff;
+}
+.table_style td a{
+	text-decoration: none;
+	color: #000;
+	-webkit-transition:all 0.2s linear;
+}
+.table_style td a:hover{
+	color: #0CC;
+	-webkit-transition:all 0.2s linear;
+}
+.table_style td{
+	text-align: center;
+}
+.table_style .sum{
+	background-color: #ddd;
+}
+.sidebar{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.input_area{
+	width: 240px;
+	display: inline-block;
+	/*实现label与输入框对齐*/
+	vertical-align: text-top; 
+}
+.label_style{
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.input_style{
+	float: right;
+}
+.warn{
+	width: 75%;
+	color: red;
+	font-size: 13px;
+	/*margin-left: 125px;*/
+}
+.btn_submit{
+	background-color: #0CE;
+	color: #fff;
+	font-size: 20px;
+	width: 100%;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition:all 0.2s linear;
+	margin-top: 20px;
+}
+.btn_submit:hover{
+	background-color: #0CC;
+	-webkit-transition:all 0.2s linear;
+}
+
+/*底部样式*/
+.footer_style{
+	width: 100%;
+	height: 60px;
+	color: #fff;
+	background-color: #666;
+	text-align: center;
+	line-height: 60px;
+	margin: 0;
+}

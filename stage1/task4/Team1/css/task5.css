@@ -1,0 +1,308 @@
+@charset "utf-8";
+		body,header,ul,dd,h1,h2,h3,p{
+			padding:0;
+			margin:0;
+		}
+		 body{
+		background: #dedede; 
+		  font-family: "microsoft yahei"; 
+		  font-size: 12px;
+		}
+
+		/* 清除浮动 */
+		.clearfix{zoom:1;}
+		.clearfix:after{
+			content:"";
+			display:block;
+			 overflow:hidden; 
+			 clear:both; 
+			 height:0; 
+			 visibility:hidden;
+			  }
+		/* 导航 */
+		nav{
+			height:60px;
+			width:100%;
+			background: #333333;
+			box-shadow: 0 2px 4px #c9c9c9;
+			line-height: 60px;	
+			clear: both;		
+		}
+		h1{
+			float: left;
+			margin-left:10px;			 
+		}
+		h1 a{
+			display: inline-block;
+		}
+		h1 img{
+			height: 60px;
+		}
+		nav ul{
+			float:right;
+			margin-right: 20px;
+		}
+		nav li{
+			width:78px;
+			display: inline-block;
+		}
+		nav li a{
+			display: inline-block;
+			text-decoration: none;
+			color:white;
+			font-size: 14px;
+		}
+		nav li a:hover{
+			color:#ccc;
+		}
+		/*文章*/
+		article{
+			padding:34px 20px;
+			margin-left: 20px;
+			margin-top: 20px;
+			background: #ffffff;			
+			box-shadow: 2px 2px 2px #848484;			
+		}
+		article h2{
+			font-weight: bold;
+		}
+		article h3{
+			margin:20px 0 16px 0;
+			color: #5f555e;
+		}
+		article span{
+			font-size: 12px;
+			color: #a39f9e;
+		}
+		article p{
+			font-size:14px;
+			text-indent: 2em;
+			line-height: 2.0;
+			margin:10px 0;
+		}
+		article a{
+			color:#5e54d7;
+		}
+		article ul{
+			list-style:none;
+			padding-left: 20px;
+		}
+		article ul li{
+			margin-top: 10px;
+			
+		}
+			/* 图片 */
+		article dl{
+			padding:10px;
+			width:200px;
+			float:left;
+			text-align: center;
+			border:1px solid #cecece;
+			box-shadow: 0 0 2px #d9d9d9;
+			margin-right: 10px;
+		}
+		article dl img{
+			margin-top:10px;
+		}
+		article ol{
+			font-weight: bold;
+			margin-left: 20px;
+		}
+		
+		/* 表格 */
+		article table{
+			width:100%;
+			border:1px solid #ccc;
+			border-spacing:none;
+			border-collapse:collapse;
+		}
+		article .declare{
+			text-indent: 0;
+			font-size: 14px;
+			font-weight: bold;
+			line-height: normal;
+			margin:0;
+		}
+		article th{
+			background: #333333;
+			color:white;
+			text-align: left;
+			height: 24px;
+			font-size: 14px;
+			font-weight: bold;
+			padding-left: 10px;
+		}
+		article td{
+			height: 24px;
+			line-height: 24px;
+			padding-left: 10px;
+		}
+		article .end td{
+			background: #cccccc;
+			font-weight: bold;
+		}
+		.t-end{
+			margin-bottom: 20px;
+		}
+
+		/* 侧边栏 */
+		.end-article{
+			padding-top:15px;
+		}
+		.end-article .sidebar{
+			border-left: 4px solid #cacaca;
+			padding: 10px;
+			font-size: 16px;
+		}
+		.end-article form{
+			margin-top: 24px;		
+		}
+		.end-article form input{
+			outline: none;
+		}		
+		.end-article .sub{
+		    margin-top: 12px;
+		    width: 100%;
+		    text-align: center;
+		    line-height: 40px;
+		    display: inline-block;
+		    color: white;
+		    background-color: #3355d0;
+		    border-radius: 8px;
+		    text-decoration: none;
+		}
+		.end-article form .input-title{
+			    width: 40%;
+			    display: inline-block;
+			    /*vertical-align: top;*/
+			    text-align: right;
+			    margin-right: 10px;
+		}
+		.end-article form .input-tip{
+			margin-left: 39%;
+			
+		}
+		.end-article form >div{
+			margin:10px 0;
+		}
+		.end-article form >div>span{
+
+			display: inline-block;
+			vertical-align: top;
+		}
+		.end-article form textarea{
+			vertical-align: top;
+			height: 100px;
+			width:200px;
+		}
+		aside{
+			padding:34px 20px;
+			margin-left: 20px;
+			margin-top: 20px;
+			background: #ffffff;			
+			box-shadow: 2px 2px 2px #848484;
+			
+			width:380px;
+		}
+		/* 自定义 */
+		input[type=radio]{
+				visibility: hidden;
+			}
+		input[type=checkbox]{
+			visibility: hidden;
+		}
+		.checkboxone{
+			display: inline-block;
+			width: 14px;
+			height: 14px;
+			background-color: white;
+			border-radius: 100%;
+			border:1px solid #999;
+			position: relative;
+		}
+		.checkboxone label{
+			position: absolute;
+			width: 8px;
+			height: 8px;
+			border-radius: 100%;
+			transition: all .5s ease;
+			cursor:pointer;
+			top:3px;
+			left:3px;
+			z-index:1;
+
+		}
+		.checkboxone input[type=radio]:checked +label{
+			background-color: blue;
+		}
+		.checkboxthree {
+			width: 25px;
+			position: relative;
+			display: inline-block;
+		}
+		.checkboxthree label{
+			cursor: pointer;
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			top: 0;
+		  	left: 0;
+			background: white;
+			border:1px solid #ddd;
+		}
+
+		.checkboxthree label:after{
+			opacity: 0;
+			content: '';
+			position: absolute;
+			width: 9px;
+			height: 5px;
+			background: transparent;
+			top: 5px;
+			left: 5px;
+			border: 3px solid #333;
+			border-top: none;
+			border-right: none;
+			-webkit-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+		}
+		.checkboxthree input[type=checkbox]:checked +label:after{
+			opacity: 1;
+		}
+
+		/* 尾部 */
+		footer{
+		    padding: 20px;
+		    text-align: center;
+		    color: white;
+		    background-color: #111;
+		}
+		/* 当浏览器宽度大于750px */
+@media screen and (min-width: 750px){
+		article{
+			margin-right: 460px;
+			width:auto;
+		}
+		aside{
+			position:absolute;
+			top:60px;
+			right:20px;
+		}
+		.end-article form textarea{
+			width:175px;
+		}
+		.end-article form .input-tip{
+			margin-left: 45%;			
+		}
+}
+/* 当浏览器宽度小于750px */
+@media screen and ( max-width: 750px){
+		article,aside{	
+			width:95%;
+			padding:1%;
+			margin:20px auto 0px auto;
+		}		
+}

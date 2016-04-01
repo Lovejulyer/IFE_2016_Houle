@@ -1,0 +1,1044 @@
+a:hover{
+    color: #2189bf;
+}
+.header{   
+    width: 100%;
+    min-width: 1280px;
+    background: #2189bf;
+}
+
+/*导航样式*/
+.topnav{
+    position: relative;
+    margin: 0 50px;
+} 
+
+.topnav .logo{
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin: 10px 10px;
+    background: url(../images/task9_icon.png) no-repeat 0 0;
+}
+
+.topnav .logo a{
+    display: inline-block;
+    /*display:inline;*/
+    /*zoom:1;*/
+    width: 100%;
+    height: 100%;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+.topnav-srh{
+    float: right;
+    width: 300px;
+    height: 28px;
+    margin: 13px 70px 0 0;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.topnav-srh-btn{
+    width: 17px;
+    height: 16px;
+    margin: 0 3px 0 15px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+    background: url(../images/task9_icon.png) no-repeat -47px 0;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+    cursor: pointer;
+}
+
+.topnav-srh-btn:hover{
+    opacity: 1;
+    filter: Alpha(opacity=100);
+}
+
+.topnav-srh-txt{
+    width: 200px;
+    height: 20px;
+    border: none;
+    vertical-align: middle;
+    background: transparent;
+}
+.topnav-login{
+    position: absolute;
+    top: 13px;
+    right: 0;
+ }
+
+ .topnav-login a{
+    color: #fff;
+    text-decoration: none;
+ }
+
+.topnav-login a i{
+    display: inline-block;
+    /*display: inline;*/
+    /*zoom:1;*/
+    width: 15px;
+    height: 16px;
+    margin: -1px 6px 0 0;
+    background: url(../images/task9_icon.png) no-repeat -76px 0;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+    vertical-align: middle;
+}
+
+.topnav-login a:hover i{
+    opacity: 1;
+    filter: Alpha(opacity=100);
+}
+
+/*mian*/
+.main{
+    min-width: 1280px;
+    height:1212px;
+    overflow: hidden;
+}
+/*侧栏样式*/
+.sidebar{
+    float: left;
+    width: 260px;
+    height: 100%;
+    color: #f6f5f5;
+    background: #2a2e3d;
+}
+
+.user{
+    width: 215px;
+    height: 130px;
+    margin: 20px 0 0 48px;
+}
+
+.user-info{
+    height: 59px;
+}
+
+/*头像*/
+.user-avatar{
+    float: left;
+    position: relative;
+    width: 58px;
+    height: 58px;
+    margin-right: 18px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.user-avatar img{
+    max-width: 48px;
+    max-height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -24px;
+    margin-left: -24px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-name{
+    line-height: 59px;
+    color: #dfdedf;
+}
+
+.user-social{
+    clear: both;
+    height: 74px;
+    position: relative;
+}
+
+.user-social a{
+    display: inline-block;
+    /*display:inline;*/
+    /*zoom:1;*/
+    color: #dfdedf;
+    margin: 10px 40px 0 20px;
+}
+
+.followers:after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 75px;
+    width: 2px;
+    height: 30px;
+    background: #323647;
+}
+
+.user-social a span{
+    display: block;
+    line-height: 18px;
+}
+
+/*.user-status*/
+.user-status ul .item{
+    padding-left: 48px;
+    margin-bottom: 20px;
+}
+
+.user-status ul li{
+    opacity: 0.7;
+    filter: Alpha(opacity=70);
+    cursor: pointer;
+}
+.user-status ul li a{
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.user-status ul li a:before{
+    content: "";
+    display: inline-block;
+    /*display: inline;*/
+    /*zoom:1;*/
+    width: 12px;
+    height: 11px;
+    margin-right: 15px;
+    background: url(../images/task9_icon.png) no-repeat;
+}
+
+.user-status .reports a:before{ background-position: -106px 0; }
+.user-status .collect a:before{ background-position: -226px -25px; }
+.user-status .share a:before{ background-position: -177px -24px; }
+.user-status .pictures a:before{ background-position: -226px -25px; }
+.user-status .growth a:before{ background-position: -226px -25px; }
+.user-status .account a:before{ background-position: -201px -26px; }
+
+.user-status ul li ul{
+    display: none;
+}
+
+/*二级菜单*/
+.user-status .submain li{
+    margin: 0 0 0 25px;
+}
+
+.user-status .submain li a:before{
+    content: "";
+    display: inline-block;
+    /*display: inline;*/
+    /*zoom:1;*/
+    width: 30px;
+    height: 12px;
+    margin-right: 5px;
+    background: url(../images/task9_icon.png) no-repeat -134px 0;
+}
+
+/*三级菜单*/
+.user-status .submain .minor li{
+    margin: 0 0 0 35px;
+}
+
+.user-status .submain .minor li a:before{
+    content: "";
+    display: inline-block;
+    /*display: inline;*/
+    /*zoom:1;*/
+    width: 10px;
+    height: 11px;
+    margin-right: 5px;
+    background: url(../images/task9_icon.png) no-repeat -227px -1px;    
+}
+
+/*hover、on事件*/
+.user-status ul li:hover{
+    opacity: 1;
+    filter: Alpha(opacity=100);
+}
+.user-status ul .on{
+    background: #383d4e;
+    opacity: 1;
+    filter: Alpha(opacity=100);
+}
+
+.user-status ul .on ul{
+    display: block;
+}
+
+.user-status .submain .on a:before{
+    background-position:  -183px 0;
+}
+
+/*main*/
+.content{
+    height: 100%;
+    margin-left: 260px;
+    color: #aaa;
+    background: #eeeeed;
+}
+
+/* 中间box全局样式*/
+.contbox{
+    background: #fff;
+    box-shadow: 1px 2px 5px #d8dbde;
+}
+
+/*中间h3全局样式*/
+.content h3{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+    color: #aaa;
+    background: #f3f5f6;
+    border-bottom: 1px solid #e7e8eb;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;  
+}
+
+/*中间select全局样式*/
+.select-style{
+    position: relative;
+    display: inline-block;
+    /*display: inline;*/
+    /*zoom:1;*/
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.select-style:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -2px;
+    right: 5px;
+    width: 9px;
+    height: 5px;
+    background: url(../images/task9_icon.png) no-repeat;
+    vertical-align: middle;
+}
+
+.select-style select{
+    width: 100%;
+    border: none;
+    background: transparent;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    outline: none;
+    cursor: pointer;
+}
+
+.select-style select option{
+    width: 100%;
+}
+
+/*位置*/
+.content .position{
+   text-indent: 30px;
+    background: #fff;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.content .position a{
+    color: #aaa;
+}
+
+.content .position .on{
+    color: #2189bf;
+}
+
+/*查询*/
+.query-wrap{
+    width: 891px;
+    padding: 20px 0 0 60px;
+}
+
+.query-info{
+    height: 86px;
+    padding: 15px 0 0 20px;
+    margin-bottom: 10px;
+}
+
+.query-item,.query-user,.query-data{
+    float: left;
+    margin-right: 40px;
+}
+
+.query-info .select-style{
+    margin-left:10px;
+    text-indent: 10px; 
+}
+
+.query-info .select-style:after{
+    background-position: -155px -29px;
+}
+
+.query-item .select-style{
+    width: 70px;
+    height: 25px; 
+}
+
+.query-item .select-style:after{
+    background-position: -127px -28px;
+}
+
+.query-user{
+    position: relative;
+    width: 193px;
+}
+
+.query-user .select-style{
+    width: 120px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.query-user .change{
+    position: absolute;
+    width: 28px;
+    height: 38px;
+    font-size: 12px;
+    top: 50%;
+    right: 0;
+    margin-top: -19px;
+    background: url(../images/task9_icon.png) no-repeat -259px -1px;;
+}
+
+.query-data{
+    width: 310px;
+}
+
+.date,.time-out,.persons,.deal{
+    display: inline-block;
+    /*display: inline;*/
+    /*zoom:1;*/
+    margin-bottom: 10px;
+}
+
+.query-data .datetxt{ 
+    width: 120px;
+    height: 25px;
+    margin: 0 10px;
+    padding: 0;
+    text-indent: 5px;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.time-out .select-style{
+    width: 70px;
+    height: 25px;
+}
+
+.persons .select-style{
+    width: 70px;
+    height: 25px;
+}
+
+.deal{
+    margin-left: 12px;
+}
+
+.deal .select-style{
+    width: 118px;
+    height: 25px;
+}
+
+.query-btn{
+    width: 50px;
+    height: 25px;
+    background: #2189bf;
+    padding: 0;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*历史查询*/
+.history{
+    width: 100%;
+    height: 65px;
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+
+.history .con{
+    width: 754px;
+    float: left;
+}
+
+.history .prev,.history .next{
+    position: relative;
+    width: 31px;
+    height: 65px;
+    background: #fff;
+    box-shadow:-1px -1px 1px  #d7d9dc;
+}
+
+.history .prev i,.history .next i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -5px;
+    width: 10px;
+    height: 17px;
+    background: url(../images/task9_icon.png) no-repeat;
+}
+
+.history .prev{
+    float: left;
+}
+
+.history .prev i{
+    background-position: -306px 0;
+}
+
+.history .next{
+    float: right;
+}
+
+.history .next i{
+    background-position: -311px -27px;
+}
+
+.history .time-line{
+    width: 686px;
+    height: 65px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.time-line ul{
+    margin: 1px 1px;
+}
+
+.time-line ul li{
+    float: left;
+    width: 110px;
+    height:60px;
+    margin-right: 4px;
+    background: #fff;
+    border-top: 4px solid transparent;
+    box-shadow:-1px -1px 1px  #d7d9dc;
+    cursor: pointer;
+}
+
+.time-line ul li:hover{
+    border-top: 4px solid #2189bf;
+}
+
+.time-line ul li:last-of-type{
+    margin: 0;
+}
+
+.time-line p{
+    margin: 5px 0 0 30px;
+    color: #333;
+    white-space: pre-wrap;
+}
+
+.time-line p span{
+    display: block;
+    margin-top: 5px;
+    color: #ec6500;
+}
+
+.time-line p span strong{
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 12px;
+}
+
+.query-history-btn{
+    float: right;
+    width: 130px;
+    height: 65px;
+    text-indent: 60px;
+    line-height: 65px;
+    background: #fff;
+    box-shadow:-1px -1px 1px  #d7d9dc;
+}
+
+.query-history-btn i{
+    display: inline-block;
+    /*display: inline;*/
+    /*zoom:1;*/
+    width: 32px;
+    height: 32px;
+    margin:0 10px 0 -40px;
+    background: url(../images/task9_icon.png) no-repeat -338px 0;
+    vertical-align: middle;
+}
+
+
+/*月份统计*/
+.statistics{
+    height: 100px;
+    margin-bottom: 15px;
+    box-shadow: none;
+}
+
+.statistics h4{
+    line-height: 30px;
+    color: #333;
+}
+
+.deal-count{
+    float: left;
+    width: 200px;
+    height: 70px;
+    box-sizing: border-box;
+    background: #fff;
+    margin-right: 30px;
+}
+
+.deal-count-num{
+    float: left;
+    margin: 12px 0 0 9px;
+    font-family: "SunHei";
+}
+.deal-count-num span{
+    display: block;
+    color: #333;
+}
+.deal-count-graph{
+    float: right;
+    width: 61px;
+    height: 47px;
+    margin: 12px 15px;
+}
+
+.statistics .item1{
+    border-left: 3px solid #43b29d; 
+}
+
+.statistics .item1 .deal-count-graph{
+    background: #43b29d;
+}
+
+.statistics .item2{
+    border-left: 3px solid #388bc2; 
+}
+
+.statistics .item2 .deal-count-graph{
+    background: #388bc2;
+}
+
+.statistics .item3{
+    border-left: 3px solid #d04b36; 
+}
+
+.statistics .item3 .deal-count-graph{
+    background: #d04b36;
+}
+
+.statistics .item4{
+    border-left: 3px solid #e2cd46; 
+    margin: 0;
+}
+
+.statistics .item4 .deal-count-graph{
+    background: #e2cd46;
+}
+
+
+/*repos*/
+.repos{
+    height: 355px;
+    margin-bottom: 15px;
+}
+
+.repos-info,.repos-search{
+    border-radius: 5px;
+}
+
+/*第一组项目*/
+.repos-info{
+    float: left;
+    width: 530px;
+    height: 100%;
+}
+
+.repos-info-list{
+    margin: 12px 20px;
+}
+
+.repos-info-list ul li{
+    float: left;
+    position: relative;
+    width: 86px;
+    height: 27px;
+    margin-right: 3px;
+    text-align: center;
+    color: #333;
+    line-height: 27px;
+    background: #ededf0;
+    border: 1px solid transparent;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.repos-info-list ul .on{
+    z-index: 5;
+    background: #fff;
+    border-color: #cacbcb;
+    border-bottom: none;
+}
+
+.project-info-content{
+    clear: both;
+    position: relative;
+    top: -1px;
+    z-index: 2;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #cacbcb;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+}
+
+.project-info-content table{
+    margin:25px 35px;
+    color: #333;
+    border: 1px solid #d3d3d3;
+}
+
+.project-info-content table tr{
+    border: 1px solid #d3d3d3;
+}
+
+.project-info-content table td{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+}
+
+.project-info-content table td:hover{
+    background: #ededf0;
+}
+
+
+/*第二组项目*/
+.repos-search{
+    float: right;
+    width: 350px;
+    height: 100%;
+}
+
+.repos-search-con{
+    margin: 12px 0 0 35px;
+}
+
+.repos-search-con .txt{
+    width: 100%;
+    padding:0;
+    text-indent: 15px;
+    border: none;
+}
+
+.repos-search-con span{
+    display: block;
+}
+
+.caption,.condition,.describe{
+    width: 280px;
+    text-indent: 15px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.condition .price{
+    float: left;
+    width: 94px;
+    border-right: 1px solid #e7e7e7;
+}
+
+.condition .principal{
+    float: left;
+    width: 181px;
+}
+
+.repos-search-submit{
+    width: 280px;
+    height: 26px;
+    margin-top: 90px;
+    line-height: 26px;
+}
+
+.repos-search-submit input{
+    vertical-align: middle;
+}
+
+.repos-search-submit .subbtn{
+    float: right;
+    width: 50px;
+    height: 26px;
+    color: #fff;
+    border: none;
+    background: #2189bf;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*bottom*/
+.bottom{
+    height: 360px;
+}
+
+/*日历*/
+.calendar{
+    float: left;
+    width: 353px;
+    height: 100%;
+    border-radius: 5px; 
+}
+
+.calendar-con{
+    margin:10px 20px;
+    font-family: "SunHei";
+}
+
+.calendar-settime{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #2189bf;
+}
+
+.calendar-settime .select-style{
+    margin-right:4px; 
+    text-indent: 4px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+
+.calendar-settime .select-style:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 18px;
+    width: 1px;
+    height: 20px;
+    background: #f5f6f7;
+}
+
+.calendar-settime .select-style:after{
+    background-position: -101px -28px;
+    margin-left: 10px;
+}
+
+.calendar-settime .year{
+    width: 62px;
+}
+
+.calendar-settime  .select-lr{
+    position: relative;
+    display: inline-block;
+    /*display: inline;*/
+    /*zoom:1;*/
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+}
+
+.calendar-settime  .select-lr:before,.calendar-settime  .select-lr:after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 9px;
+    background: url(../images/task9_icon.png) no-repeat;
+    cursor: pointer;
+}
+
+.calendar-settime  .select-lr:before{
+    top: 50%;
+    margin-top: -4px;
+    left: 5px;
+    background-position: -49px -28px;
+}
+
+.calendar-settime  .select-lr:after{
+    top: 50%;
+    margin-top: -4px;
+    right: 5px;
+    background-position: -76px -28px;
+}
+
+.calendar-settime .month{
+    width: 46px;
+    margin:0 18px;
+    text-indent: 12px;
+    border: none;
+    border-left:1px solid #f5f6f7; 
+}
+
+.calendar-settime .month:before{
+    right: 0; 
+}
+
+.calendar-settime .day{
+    width: 73px;
+}
+
+.calendar-settime .today{
+    width: 62px;
+    text-indent: 7px; 
+}
+
+.calendar-settime .today:after,.calendar-settime .today:before{
+    content:none;
+}
+
+/*日历*/
+.calendar-con table th{
+    width: 45px;
+    height: 29px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.calendar-con table td{
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.calendar-con table td p{
+    width: 40px;
+    height: 38px;
+    color: #333;
+    margin: 2px;
+}
+
+.calendar-con table td span{
+    display: block;
+    color: #333;
+    margin-top: 5px;
+}
+
+.calendar-con table td .gala{
+    color: red;
+}
+
+.calendar-con table td p .special{
+    color: red;
+}
+
+.calendar-con table .active p{
+    border: 1px solid #f6cd48;
+}
+
+
+/*汽车行业品牌榜*/
+.brandstop{
+    float: right;
+    width: 533px;
+    height: 100%;
+    border-radius: 5px; 
+}
+
+.brandstop table{
+    margin: 12px 0 0 40px;
+    cursor: pointer;
+}
+
+.brandstop table tr:hover{
+    background: #f4f6f7;
+}
+
+.brandstop table .top{
+    width: 66px;
+}
+
+.brandstop table .brands{
+    width: 90px;
+}
+
+.brandstop table .srh-index{
+    width: 270px;
+}
+
+.brandstop table td,.brandstop table th{
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #aaa;
+}
+
+.top1,.top2,.top3,.top4,.top5,.top6,.top7,.top8,.top9,.top1{
+    text-align: left;
+}
+
+.brandstop table td .bar{
+    display: inline-block;
+    /*display:inline;*/
+    /*zoom:1;*/
+    width: 168px;
+    height: 4px;
+    margin-left: 10px;
+    background: #aaa;
+}
+
+.brandstop .top1 .bar .bar-percent{
+    width: 90%;
+    height: 100%;
+    background:#ec6d51;
+}
+
+.brandstop .top2 .bar .bar-percent{
+    width: 80%;
+    height: 100%;
+    background:#ef8150;
+}
+
+.brandstop .top3 .bar .bar-percent{
+    width: 75%;
+    height: 100%;
+    background:#f19f4f;
+}
+
+.brandstop .top4 .bar .bar-percent{
+    width: 65%;
+    height: 100%;
+    background:#7fcbf0;
+}
+
+.brandstop .top5 .bar .bar-percent{
+    width: 60%;
+    height: 100%;
+    background:#7fcbf0;
+}
+
+.brandstop .top6 .bar .bar-percent{
+    width: 55%;
+    height: 100%;
+    background:#7fcbf0;
+}
+
+.brandstop .top7 .bar .bar-percent{
+    width: 50%;
+    height: 100%;
+    background:#7fcbf0;
+}
+
+.brandstop .top8 .bar .bar-percent{
+    width: 45%;
+    height: 100%;
+    background:#7fcbf0;
+}
+
+.brandstop .top9 .bar .bar-percent{
+    width: 40%;
+    height: 100%;
+    background:#7fcbf0;
+}
+
+.brandstop .top10 .bar .bar-percent{
+    width: 40%;
+    height: 100%;
+    background:#7fcbf0;
+}

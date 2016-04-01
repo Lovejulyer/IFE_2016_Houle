@@ -1,0 +1,887 @@
+/*header*/
+header
+{   
+    width: 100%;
+    min-width: 1280px;
+    background: #fff;
+}
+
+header nav
+{   
+    width: 1155px;
+    margin: 0 auto;
+}
+
+header nav h1
+{   
+    float: left;
+    width: 103px;
+    height: 31px;
+    margin:10px 0;
+    text-indent: -1000px;
+    background: url(../images/task7_logo.png) no-repeat center top;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+header nav ul
+{
+    float: right;
+}
+
+header nav ul li
+{
+    float: left;
+    width: 65px;
+    font-size: 14px;
+    line-height: 54px;
+    text-align: center;
+    margin-left:25px;
+}
+
+header nav ul .login
+{
+    position: relative;
+    color: #e74f4d;
+}
+
+header nav ul .login a:before
+{
+    content: "";
+    position: absolute;
+    top: 35%;
+    left: 8px;
+    width: 15px;
+    height: 16px;
+    background: url(../images/task7_icon.png) no-repeat -98px -74px;
+}
+
+header nav ul .on
+{
+    color: #e74f4d;
+    border-bottom: 5px solid #e74f4d;
+}
+
+header nav ul li a
+{
+    color: #787b83;
+}
+
+header nav ul .login a
+{
+    color: #e74f4d;
+    margin-left: 15px;
+}
+
+header nav ul li a:hover
+{
+    color: #e74f4d;
+}
+/*header end*/
+
+/*banner*/
+.banner
+{
+    clear: both;
+    margin: 0 auto;
+    position: relative; 
+    width: 100%;
+    min-width: 1280px;
+    height: 690px; 
+}
+
+.banner .wrap
+{
+    position: absolute;
+    top: 180px;
+    left: 114px;
+    color: #fff;
+}
+
+.banner .wrap h2
+{
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.banner .wrap p
+{
+    font-size: 21px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+.banner .wrap a
+{
+    display: block;
+    width: 331px;
+    height: 65px;
+    margin-top: 65px;
+    font-size: 30px;
+    line-height: 65px;
+    color: #fff;
+    text-align: center;
+    background: #e74f4d;
+}
+
+.banner .wrap a:hover
+{
+    background: #e64442;
+    transition: background-color .3s;
+    -webkit-transition:background-color .3s;
+}
+
+/*banner end*/
+
+/*introduce*/
+.introduce
+{
+    width: 100%;
+    min-width: 1280px;
+    margin: 0 auto;
+}
+
+.introduce ul li
+{
+    float: left;
+    position: relative;
+    width: 25%;
+    height: 252px;
+}
+
+.introduce ul li i
+{   
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -22px;
+    width: 44px;
+    height: 44px;
+    background: url(../images/task7_icon.png) no-repeat;
+}
+
+.introduce ul li:nth-child(1) i
+{
+    background-position: -50px 0;
+}
+
+.introduce ul li:nth-child(2) i
+{
+    background-position: -113px 0;
+}
+
+.introduce ul li:nth-child(3) i
+{
+    background-position: -179px 0;
+}
+
+.introduce ul li:nth-child(4) i
+{
+    background-position: -239px 0;
+}
+.introduce ul li p
+{
+    margin: 130px 90px;
+    line-height: 20px;
+}
+
+.introduce ul li p:after
+{
+    content: "";
+    position: absolute;
+    top: 130px;
+    right: 0;
+    width: 2px;
+    height: 52px;
+    background: #aaa;
+}
+.introduce ul li:last-child p:after
+{
+    display: none;
+}
+/*introduce end*/
+
+/*about*/
+.about
+{
+    clear: both;
+    position: relative;
+    width: 100%;
+    min-width: 1280px;
+    margin: 0 auto;
+    padding: 220px 0 85px;
+    text-align: center;
+    background: #ededed;
+}
+
+.about h3
+{
+    font-size: 54px;
+    line-height: 54px;
+    color: #a1a1a1;
+    font-family: "SunHei";
+}
+
+.about i
+{
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -45px;
+    width: 91px;
+    height: 91px;
+    background: url(../images/task7_icon.png) no-repeat -299px 0;
+}
+/*about end*/
+
+/*search*/
+.search
+{   
+    width: 100%;
+    min-width: 1280px;
+    height: 341px;
+    margin: 0 auto;
+    color: #fff;
+    background: url(../images/task7_map.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.search h2
+{   
+    margin-top: 40px;
+    font-size: 21px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.search h2:after
+{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 10px auto;
+    background: #fff;
+}
+
+.search p
+{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.search .select-wrap
+{
+    width: 1031px;
+    margin: 50px auto;
+}
+.select
+{
+    float: left;
+    width: 236px;
+    margin-right: 26px;
+    line-height: 36px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.select-wrap .option
+{
+    width: 100%;
+    height: 36px;
+    background: #fff;
+    color: #333;
+}
+.select-wrap .option span
+{
+    padding-left: 14px;
+    color: #aaa;
+}
+.select-wrap .option span:after
+{
+    content: "";
+    float: right;
+    width: 18px;
+    height: 18px;
+    margin: 9px 9px 0 0;
+    background: url(../images/task7_icon.png) no-repeat -54px -74px;
+}
+.select-wrap .drop
+{
+    position: absolute;
+    z-index: 100;
+    width: 236px;
+    margin-left: -1px;
+    background: #e3e3e5;
+    border: 1px solid transparent;
+    border-top:none; 
+    display: none;
+}
+
+.select-wrap .drop li
+{
+    position: relative;
+    height: 36px;
+    text-indent: 36px;
+    color: #323333;
+}
+
+.select-wrap .drop li i
+{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 12px;
+    height: 8px;
+    background: url(../images/task7_icon.png) no-repeat -63px -48px;
+    display: none;
+}
+
+.select-wrap .search-btn
+{
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 20px;
+    text-align: center;
+    background: #e74f4d;
+}
+/*hover事件*/
+.select:hover
+{
+    border: 1px solid #be4e48;
+}
+
+.select:hover .drop
+{
+    border: 1px solid #be4e48;
+    border-top:none; 
+    display: block;
+}
+.select-wrap .drop li:hover
+{
+    background: #be4e48;
+    color: #fff;
+}
+.select-wrap .drop li:hover i
+{
+    display: block;
+}
+
+.select-wrap .search-btn:hover
+{
+    background: #e64442;
+    transition: background-color .3s;
+    -webkit-transition:background .3s;
+}
+
+/*search end*/
+
+/*active*/
+.active
+{
+    clear: both;
+    width: 100%;
+    min-width: 1280px;
+    background: #f7f7f7;
+}
+.active .wrap
+{
+    width: 1042px;
+    margin: 100px auto;
+}
+.active .wrap figure
+{
+    float: left;
+    margin-left: 37px;
+    text-align: center;
+}
+.active .wrap figure a
+{   
+    display: inline-block;
+    *display: inline;
+    *zoom:1;
+    width: 203px;
+    height: 312px;
+    margin: 8px 0;   
+    border: 12px solid #fff;
+    border-left: 7px solid #fff;
+    border-right: 7px solid #fff;
+    box-shadow: 1px 1px 2px #dadada;
+    -webkit-box-shadow:1px 1px 2px #dadada;
+    -moz-box-shadow:1px 1px 2px #dadada;
+}
+.active .wrap figure a:hover
+{
+    box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+
+}
+.active .wrap figure img
+{
+    min-width: 203px;
+    min-height: 312px; 
+}
+.active .wrap figure h4
+{
+    font-size: 14px;
+    color: #323333;
+}
+.active .wrap figure h4 strong
+{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 15px;    
+}
+
+.active .wrap figure p
+{
+    color: #9f9f9f;
+}
+/*active end*/
+
+/*active-info*/
+.active-info
+{
+    clear: both;
+    width: 100%;
+    min-width: 1280px;
+    margin: 0 auto;
+}
+.active-pic
+{
+    float: left;
+    width: 66.67%;
+    height: 566px;
+    overflow: hidden;
+}
+.active-pic a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.content-text
+{   
+    float: right;
+    width: 33.33%;
+    height: 566px;
+    background: #fff;
+}
+.content-text .wrap
+{
+    width: 290px;
+    height: 285px;
+    margin: 150px auto 0;
+}
+.content-text .wrap h3
+{
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    font-family:"宋体";
+}
+.content-text .wrap h3 span
+{
+    color: red;
+}
+.content-text .wrap h3 span:before
+{
+    content: "";
+    display: inline-block;
+    *display: inline;
+    *zoom:1;
+    width: 20px;
+    height: 20px;
+    background: url(../images/task7_icon.png) no-repeat 0 -71px;
+}
+.content-text .wrap p
+{
+    margin:20px 0 40px;
+    line-height: 30px;
+    color: #bbb;
+}
+.content-text .wrap a
+{
+    display: block;
+    width: 106px;
+    height: 33px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 33px;
+    color: #e25e62;
+    border: 1px solid #e25e62;
+}
+.content-text ul
+{
+    clear: both;
+    display: table;
+    margin: 25px auto 0;
+}
+.content-text ul li
+{   
+    display: inline-block;
+    *display: inline;
+    *zoom:1;
+    width: 12px;
+    height: 12px;
+    margin: 5px; 
+    background: url(../images/task7_icon.png) no-repeat -120px -48px;
+    cursor: pointer;
+}
+.content-text ul .on
+{
+    background: url(../images/task7_icon.png) no-repeat -94px -48px;
+}
+.content-text .wrap a:hover
+{
+    color: #fff;
+    background: #e25e62;
+    transition: all .3s;
+    -webkit-transition:all .3s;
+}
+
+/*active-info end*/
+
+/*column*/
+.column
+{
+    clear: both;
+    width: 100%;
+    min-width: 1280px;
+}
+.column .itemlist
+{
+    float: left;
+    width: 33.33%;
+    height: 521px;
+    text-align: center;
+    font-size: 21px;
+}
+.column .itemlist .wrap
+{
+    margin-top: 160px;
+}
+.column .itemlist .wrap p
+{
+    line-height: 30px;
+}
+.column .itemlist .wrap a
+{
+    padding: 7px 35px;
+    margin: 0 auto;
+    line-height: 44px;
+}
+
+.column .itemlist .wrap .newtime
+{
+    display: block;
+    width: 31px;
+    height: 3px;
+    margin: 25px auto;
+}
+/*.item1*/
+.column .item1
+{
+    color: #fff;
+    background: #e74f4d;
+}
+.column .item1 .wrap a
+{
+    color: #fff;
+    background-color: #e74f4d;
+    border: 1px solid #fff;
+}
+.column .item1 .wrap .newtime
+{
+    background: #fff;
+}
+/*.item2*/
+.column .item2
+{
+    color: #000;
+    background: #fff;
+}
+.column .item2 .wrap a
+{
+    color: #e74f4d;
+    background-color: #fff;
+    border: 1px solid #e74f4d;
+}
+.column .item2 .wrap .newtime
+{
+    background: #aaa;
+}
+
+/*.item3*/
+.column .item3 a
+{
+    display:block;
+    width: 100%;
+    height: 521px;
+}
+/*hover*/
+.column .item1 .wrap a:hover
+{
+    color: #e74f4d;
+    background: #fff;
+    border: 1px solid #e74f4d;
+    transition: all .5s;
+    -webkit-transition:all .5s;
+}
+.column .item2 .wrap a:hover
+{
+    color: #fff;
+    background: #e74f4d;
+    border: 1px solid #fff;
+    transition: all .5s;
+    -webkit-transition:all .5s;
+}
+.column .itemlist:hover .newtime
+{
+    width: 90px;
+    transition: width .3s;
+    -webkit-transition:width 1s;
+}
+
+/*column end*/
+
+/*joinus*/
+.joinus
+{
+    clear: both;
+    width: 100%;
+    min-width: 1280px;
+    margin: 0 auto;
+}
+.joinus .title
+{
+    width: 430px;
+    margin: 100px auto 85px;
+    padding: 0 163px;
+    text-align: center;
+}
+.joinus .title h4
+{
+    font-size: 21px;
+    line-height: 30px;
+    margin: 10px 0;
+    font-family: "SunHei";
+}
+.joinus .title h4:after
+{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 10px auto;
+    background: #e7504d;
+}
+.joinus .title p
+{
+    color: #aaa;
+    line-height: 24px;
+}
+
+.joinus .wrap
+{
+    width: 1003px;
+    margin: 0 auto 130px;
+}
+.joinus .provision
+{
+    float: left;
+    width: 300px;
+}
+.joinus .provision h4
+{
+    font-size: 14px;
+    font-family: "SunHei";
+    color: #231815;
+}
+.joinus .provision p
+{
+    margin-top: 20px;
+    color: #aaa;
+    line-height: 21px;
+    font-family: "宋体";
+}
+.joinus .provision .more
+{
+    float: right;
+    width: 42px;
+    height: 8px;
+    margin: 8px 0 15px;
+    background: url(../images/task7_icon.png) no-repeat 0 -48px;
+}
+.protocol,.rights,.provision-more
+{
+    margin-bottom: 35px;
+}
+
+.joinus .request
+{
+    float: right;
+    width: 640px;
+}
+.joinus .request input
+{
+    width: 308px;
+    height: 41px;
+    margin: 0 15px 13px 0;
+    text-indent: 5px; 
+    background: #ededef;
+    border: none;
+}
+.joinus .request .age,.joinus .request .address
+{
+    margin-right: 0;
+}
+.joinus .request .description
+{
+    width: 640px;
+    height: 100px;
+    padding: 10px 0; 
+    text-indent: 10px;
+    background: #ededef;
+    resize: none;
+    border: none;
+}
+.joinus .request .submit-btn
+{
+    width: 640px;
+    height: 40px;
+    padding: 0;
+    margin: 10px 0 13px;
+    font-size: 14px;
+    font-family: "SunHei";
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+}
+/*joinus end*/
+
+/* contact */
+.contact
+{
+    clear: both;
+    width: 100%;
+    min-width: 1280px;
+    margin: 0 auto;
+    color: #fff;
+    background: #32363e;
+}
+.contact .wrap
+{
+    width: 512px;
+    margin: 85px auto 70px;
+}
+.contact .wrap h4
+{
+    font-size: 21px;
+    font-family: "SunHei";
+    font-weight: normal;
+    line-height: 40px;
+    text-align: center;
+}
+.contact .wrap p
+{
+    font-family: "宋体";
+    line-height: 18px;
+    text-align: center;
+}
+.contact .wrap .combobox-btn
+{
+    margin: 30px 0;
+}
+.contact .wrap .combobox-btn .email
+{
+    width: 429px;
+    height: 40px;
+    padding: 0;
+    text-indent: 10px;
+    background: #fff;
+    border: 1px solid #989a9e;
+    vertical-align: middle;
+}
+.contact .wrap .combobox-btn .eamil-submit
+{
+    width: 80px;
+    height: 42px;
+    padding: 0;
+    font-size: 15px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    background: #6f7178;
+    border: 1px solid #51535b;
+    border-left: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.contact .wrap .footer-icon-list
+{
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+}
+.contact .wrap .footer-icon-list li
+{
+    float: left;
+    margin: 0 15px;
+}
+.contact .wrap .footer-icon-list li a
+{
+    display:block;
+    width: 30px;
+    height: 26px;
+    background: url(../images/task7_icon.png) no-repeat;
+}
+.contact .wrap .footer-icon-list li .qq
+{
+    background-position: -128px -66px;
+}
+.contact .wrap .footer-icon-list li .wb
+{
+    background-position: -167px -66px;
+}
+.contact .wrap .footer-icon-list li .twitter
+{
+    background-position: -216px -66px;
+}
+.contact .wrap .footer-icon-list li .inter
+{
+    background-position: -259px -66px;
+}
+/* contact end*/
+
+/*footer*/
+footer
+{
+    clear: both;
+    width: 100%;
+    min-width: 1280px;
+    background: #303039;
+}
+footer .wrap
+{
+    margin: 0 auto;
+    width: 1200px;
+    color: #fff;
+    line-height: 58px;
+}
+footer .wrap span
+{
+    margin-left: 60px;
+}
+
+footer .wrap .back-top
+{
+    color: #fff;
+    float: right;
+}

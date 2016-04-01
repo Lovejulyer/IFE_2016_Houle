@@ -1,0 +1,304 @@
+/*导航*/
+body
+{
+	background: #E9E9E9;
+}
+
+.header
+{
+	width: 100%;
+	min-width: 1200px;
+	background: #333;
+}
+
+.nav
+{
+	width: 1200px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.nav h1
+{
+	float: left;
+	width: 117px;
+	height: 38px;
+	padding: 10px;
+	background:url(..//images/baidu_logo.png) no-repeat center;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.nav h1 a
+{
+	display: block;
+	text-indent:-1000px;
+}
+
+.nav ul
+{
+	float: right;
+}
+
+.nav ul li
+{
+	float: left;
+	padding-left: 20px;
+	line-height: 58px;
+}
+
+.nav ul li a
+{
+	color: #fff;
+}
+
+.nav ul li a:hover
+{
+	text-decoration: underline;
+}
+
+
+/*文章*/
+.main
+{	
+	clear: both;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.article
+{	
+	width: 1158px;
+	margin: 20px 0;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #C0C0C0;
+	box-shadow: 2px 2px 1px #aaaaaa;
+	-webkit-box-shadow: 2px 2px 1px #aaaaaa;
+	-moz-box-shadow: 2px 2px 1px #aaaaaa;
+	
+}
+
+.article .content
+{
+	font-size: 14px;
+}
+
+.article h2
+{
+	line-height: 50px;
+}
+
+.article h3
+{
+	line-height: 30px;
+	font-weight: normal;
+}
+
+.article span
+{
+	margin-right:10px;
+	color: #808080;
+}
+
+.article span a
+{
+	color: #808080;
+}
+
+.article span a:hover
+{
+	color: blue;
+}
+
+.article p
+{
+	text-indent: 2em;
+}
+
+.article a
+{
+	color: blue;
+}
+
+.article a:hover
+{
+	text-decoration: underline;
+}
+
+.article ul
+{
+	margin: 10px 0 0 20px;
+}
+
+
+.article ol
+{
+	margin: 10px 0 10px 40px;
+}
+
+/*图片列表*/
+.img_list
+{
+	width: 1158px;
+	margin: 20px 0;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #C0C0C0;
+	box-shadow: 2px 2px 1px #aaaaaa;
+	-webkit-box-shadow: 2px 2px 1px #aaaaaa;
+	-moz-box-shadow: 2px 2px 1px #aaaaaa;
+}
+
+.img_list h2
+{
+	line-height: 50px;
+}
+
+.img_list dl
+{	
+	width: 100px;
+	height: 90px;
+	padding: 10px;
+	border: 1px solid #C0C0C0;
+	text-align: center;
+	margin: 0 0 20px 40px;
+}
+
+.img_list dl dd
+{	
+	margin-top: 10px;
+	
+}
+
+.img_list dl dd img
+{
+	max-width: 100px;
+	max-height: 90px;
+}
+
+/*表格*/
+.article .content table
+{
+	border: 1px solid #cdcdcd;
+	border-collapse: collapse;
+	font-size: 12px;
+	text-indent: 5px;
+}
+
+.article .content table a
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.article .content table th
+{
+
+	background: #333;
+	color: #fff;
+	text-align: left;
+	width: 500px; 
+	border: 1px solid #cdcdcd;
+	border-collapse: collapse;
+}
+
+.article .content table th:last-child
+{
+	width: 200px;
+}
+
+.article .content table tr:last-child
+{
+	background: #cdcdcd;
+	font-weight: bold;
+}
+
+.article .content table td
+{
+
+	border: 1px solid #cdcdcd;
+	border-collapse: collapse;
+}
+
+/*侧栏*/
+.sidebar
+{
+	width: 1158px;
+	margin: 20px 0;
+	padding: 20px;
+	background: #fff;
+	border: 1px solid #C0C0C0;
+	box-shadow: 2px 2px 1px #aaaaaa;
+	-webkit-box-shadow: 2px 2px 1px #aaaaaa;
+	-moz-box-shadow: 2px 2px 1px #aaaaaa;
+}
+
+.sidebar h2
+{
+	font-size: 15px;
+	line-height: 40px;
+}
+
+.sidebar h2 i
+{	
+	float: left;
+	width: 3px;
+	height: 40px;
+	margin-right: 10px;
+	background: #cdcdcd;
+}
+
+.sidebar .wrap
+{
+	margin: 10px 0 0 250px;
+}
+
+.sidebar .wrap .item
+{
+	margin: 10px 0;
+}
+
+.sidebar .wrap .item span
+{
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+
+.sidebar .wrap .item p
+{
+	clear: both;
+	margin: 0 0 10px 155px;
+	line-height: 30px;
+	color: #808080;
+}
+
+.sidebar .submit
+{
+	width: 1160px;
+	height: 35px;
+	background: #4169E1;
+	border-radius: 8px;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	margin: 0 auto;
+	border: none;
+	cursor: pointer;	
+}
+
+/*底部*/
+.footer
+{
+	width: 100%;
+	min-width: 1200px;
+	background: #000;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+}

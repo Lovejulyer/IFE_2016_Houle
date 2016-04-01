@@ -1,0 +1,71 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+
+div
+{
+	padding: 20px;
+	border: 1px solid #999;
+}
+
+.logo
+{
+	max-width: 80px;
+	max-height: 80px;
+	border: 1px solid #999;
+}
+
+.container
+{
+	margin: 20px;	
+	background: #eee;
+	overflow: hidden;
+	zoom:1;
+	min-width: 420px;
+}
+
+.team,.team_members,.team_profile
+{
+	background: #fff;
+}
+
+
+.team
+{	
+	float: left;
+	width: 160px;
+}
+
+.team h2
+{
+	float: right;
+}
+
+
+.team_profile
+{	
+	margin-right: 140px;
+	margin-left: 220px;
+}
+
+.team_members
+{	
+	float: right;
+	width: 80px;
+}
+
+.team_members .logo
+{
+	margin-top:20px; 
+}
+
+.team_members .logo:first-child
+{
+	margin: 0;
+}
+
+
+

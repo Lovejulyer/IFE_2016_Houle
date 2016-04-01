@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+html, body, div{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #eee !important;
+  margin: 20px;
+  min-width: calc(200px + 200px + 120px + 80px);
+  overflow: auto;
+  font-family:"Helvetica Neue",Helvetica,Arial,"pingfang sc","Hiragino Sans GB","Microsoft YaHei",STHeiti,SimSun,sans-serif;
+}
+.container, .left, .middle, .right {
+  background: white;
+  border: 1px solid #999;
+  padding: 20px;
+}
+
+.left {
+  float: left;
+  width: 200px;
+}
+.left h3 {
+  margin-top: 0;  
+}
+
+.middle {
+  margin: 0 140px 0 220px;
+}
+.middle h3 {
+  margin-top: 0;  
+}
+
+.right {
+  float: right;
+  height: auto;
+  width: 120px;
+}
+
+
+.logo {
+  height: 80px;
+  width: 80px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.logo.last {
+  margin-bottom: 0;
+}
+.left .logo {
+  float: left;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex</title>
+	<style type="text/css">
+		*{
+			padding:0;
+			margin:0;
+		}
+		 html,body{
+            width: 100%;
+            height: 100%;
+        }
+		.wrap{
+			width:100%;
+			height:100%;		
+			display: -webkit-flex;
+			display: flex;
+			justify-content:center;
+			align-items:center;
+		}
+		.inner{
+			width: 400px;
+			height: 200px;
+			background: #ccc;
+			position: relative;
+			overflow: hidden;
+		}
+		.corner{
+			position: absolute;
+			width:100px;
+			height: 100px;
+			border-radius: 50%;
+			background: #fc0;
+		}
+		.top-corner{
+			left:-50px;
+			top:-50px;
+
+		}
+		.bottom-corner{
+			right:-50px;
+			bottom:-50px;
+		}
+		/* 连接 */
+		.link{
+			position: absolute;
+			top:0;
+			margin-left:40%;
+		}
+		.link a{
+			display: inline-block;
+			text-decoration: none;
+			margin-right: 10px;
+			font-weight: bold;
+			background: black;
+			color:white;
+			padding:10px;
+		}
+		.link a:hover{
+			background: lightblue;
+			color:black;
+		}
+	</style>
+</head>
+<body>
+	<div class="link"><a href="http://jerrymark1.github.io/mypage2/定位和居中问题-position.html">定位居中</a><a href="http://jerrymark1.github.io/mypage2/定位和居中问题-flex.html">flex居中</a><a href="http://jerrymark1.github.io/mypage2/定位和居中问题-table.html">表格居中</a></div>
+	<div class="wrap">
+		<div class="inner">
+			<div class="corner top-corner"></div>
+			<div class="corner bottom-corner"></div>
+		</div>
+	</div>
+</body>
+</html>

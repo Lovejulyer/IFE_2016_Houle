@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			padding:0;
+			margin:0;
+		}
+		#wrap{
+			display: flex;
+			justify-content:space-between;
+			align-items:center;
+			font-size: 12px;
+				}
+		#wrap>div{
+			width:150px;
+			border:1px solid #f00;
+			padding:20px;
+			box-sizing:border-box;
+		}
+		#wrap div.left{
+			height: 120px;
+		}
+		#wrap div.main1{
+			height: 100px;
+		}
+		#wrap div.main2{
+			height: 40px;
+		}
+		#wrap div.right{
+			height: 200px;
+			 border-color: #0f0;
+		}
+		#wrap div.main2 p{
+			margin-top: -20px;
+		}
+		@media screen and (max-width: 640px){
+			#wrap{
+				 align-items: flex-start;
+       			 flex-wrap: wrap;
+			}
+			#wrap div.right{
+				order:-1;
+				margin-bottom: 20px;			
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div class="left">宽度 150px, 高度 120px, 边框颜色 #f00</div>
+		<div class="main1">宽度 150px, 高度 100px, 边框颜色 #f00</div>
+		<div class="main2"><p>宽度 150px, 高度 40px, 边框颜色 #f00</p></div>
+		<div class="right">宽度 150px, 高度 200px, 边框颜色 #0f0</div>
+	</div>
+</body>
+</html>

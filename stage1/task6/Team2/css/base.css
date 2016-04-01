@@ -1,0 +1,78 @@
+/*reset css*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,section, article, aside, header, footer, nav, dialog, figure,menu,hgroup,iframe
+{ 
+	margin:0; 
+	padding:0;  
+}
+body
+{ 
+	background:#FFF; 
+	line-height:24px; 
+	font-size:12px; 
+	font-family: "Microsoft YaHei","宋体","Helvetica","Arial","sans-serif";
+	color:#333; 
+}
+/* 去掉各Table cell 的边距并让其边重合 */ 
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* IE bug fixed: th 不继承 text-align*/ 
+th
+{
+	text-align: inherit;
+}
+/* 去除默认边框 */ 
+fieldset,img
+{
+	border: 0;
+}
+/* ie6 7 8(q) bug 显示为行内表现 */ 
+iframe
+{
+	display: block;
+}
+
+ul
+{ 
+	list-style:none;
+}
+
+a
+{ 
+	text-decoration:none; 
+	color: #333;
+}
+
+a:hover
+{ 
+	color: blue;
+}
+
+input:focus,textarea:focus
+{ 
+	outline:none;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-size: 100%;
+	font-weight: 500;
+}
+/* 清除浮动 */ 
+.clearfix:before,.clearfix:after
+{
+	content: "";
+	display: table;
+}
+.clearfix:after
+{
+	clear: both;
+	overflow: hidden;
+}
+.clearfix
+{
+	zoom:1;	/*for IE6 IE7*/
+}

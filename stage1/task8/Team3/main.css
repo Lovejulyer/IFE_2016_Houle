@@ -1,0 +1,36 @@
+@import url("grid.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+.rect {
+  height: 50px;
+  border: 1px solid #999;
+  background-color: #eee;
+  text-align: center;
+  line-height: 50px;
+}
+
+.rect span:first-of-type {
+  display: none;
+}
+  
+.rect span:last-of-type {
+  display: inline;
+}
+
+@media all and (min-width:768px) {
+  .rect span:first-of-type {
+    display: inline;
+  }
+  
+  .rect span:last-of-type {
+    display: none;
+  }
+}

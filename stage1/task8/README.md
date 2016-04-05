@@ -54,7 +54,11 @@
 
   demo：http://ife-itstudio.github.io/Task1_8/
 
-团队三：
+团队三：[五个非洲人](http://ife.baidu.com/group/profile?groupId=261)
+
+  代码地址：https://github.com/Five-African/task-stage1-final-submission/tree/gh-pages/task08
+
+  demo：http://five-african.github.io/task-stage1-final-submission/task08/
 
 
 

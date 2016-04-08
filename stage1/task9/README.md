@@ -1,4 +1,4 @@
-任务九：使用HTML/CSS实现一个复杂页面【已经结束】
+任务九：使用HTML/CSS实现一个复杂页面
 
 **面向人群**：
  有一定HTML/CSS基础的同学
@@ -63,3 +63,10 @@
    - 交叉互相Review其他人的代码，建议每个人至少看一个同组队友的代码
 
    - 相互讨论，最后合成一份组内最佳代码进行提交
+
+
+团队一：[上海大前端](http://ife.baidu.com/review/detail?workId=1062)
+
+  代码地址：https://github.com/iamlany/baiduClass/tree/master/classTo9
+
+  demo：http://htmlpreview.github.io/?https://github.com/iamlany/baiduClass/blob/master/classTo9/index.html

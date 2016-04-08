@@ -1,0 +1,162 @@
+/*
+    color
+*/
+
+$mian-color: #2189bf;
+$slider-color: #2a2e3d;
+$bg-color: #eeeeed;
+
+/*
+    other
+*/
+.l-fl{
+    float: left;
+}
+.l-rg{
+    float: right;
+}
+.clearFix{
+    &{
+        *zoom:1;
+    }
+    &:before,
+    &:after{
+        content: '';
+        display: table;
+    }
+    
+    &:after{
+        clear: both;
+        overflow: hidden;
+    }
+};
+
+/*
+    button
+*/
+[class^='btn']{
+    padding: 3px 13px;
+    font-size: 12px;
+    border-radius: 3px;
+    border:1px solid #fff;
+    cursor: pointer;
+    transition: .2s background ease-out;
+}
+
+.btn-default{
+    border-color: $mian-color;
+    background: $mian-color;
+    color: #fff;
+    
+    &:hover{
+        background: $mian-color/1.3;
+    }
+}
+/*
+    select
+*/
+.u-select{
+    display: inline-block;
+    
+    >.u-hd{
+        position: relative;
+        width: 120px;
+        height: 23px;
+        line-height: 23px;
+        padding-left: 8px;
+        text-align: left;
+        border: 1px solid #aaa;
+        cursor: pointer;
+        
+        b{
+            position: absolute; 
+            right: 1px;
+            top: 3px;  
+        }
+    }
+    >.u-bd{
+        display: none;
+    }
+    
+    //size
+    &.select-s{
+        >.u-hd{
+            width: 70px;
+        }
+    }
+}
+
+/*
+    input
+*/
+
+.u-input{
+    border:1px solid #aaa;
+    height: 23px;
+    padding-left: 10px;
+    width: 130px;
+}
+
+/*
+    icon
+*/
+
+[class^='icon']{
+    display: inline-block;
+    background: url('../images/sprite.png') no-repeat; 
+}
+
+.icon-date{
+    width: 34px;
+    height: 34px;
+    background-position: 0 -447px; 
+}
+
+.icon-search{
+    width: 20px;
+    height: 20px;
+    background-position: -9px -738px;
+}
+.icon-user{
+    width: 18px;
+    height: 18px;
+    background-position: -11px -819px;
+}
+.icon-jt,
+.icon-doc,
+.icon-txt,
+.icon-star,
+.icon-book,
+.icon-pos,
+.icon-table{
+    position: relative;
+    top: 1px;   
+    width: 18px;
+    height: 14px;
+}
+.icon-table{
+    background-position: -7px -11px;
+}
+.icon-star{
+    background-position: -7px -133px; 
+}
+.icon-pos{
+    background-position: -7px -170px; 
+}
+.icon-book{
+    background-position: -7px -212px;  
+}
+.icon-doc{
+    background-position: -7px -52px;
+}
+.icon-txt{ 
+    background-position: -7px -93px; 
+}
+.icon-jt{
+    background-position: -7px -528px;
+}
+.icon-sel{
+    width: 18px;
+    height: 18px;
+    background-position: -7px -587px;
+}
